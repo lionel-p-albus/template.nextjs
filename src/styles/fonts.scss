@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "OptimaNovaLTPro";
+  src: local("OptimaNovaLTPro"),
+  url("/fonts/OptimaNovaLTPro/OptimaNovaLTProRegular.otf") format("truetype");
+  font-weight: normal;
+}
+
+.font-normal-16 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.font-sign-in-header {
+  color: var(--foreground-text-primary, #0C1116);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
